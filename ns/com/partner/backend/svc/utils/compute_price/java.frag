@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">compute_price</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gcGlwZWxpbmUNCklEYXRhQ3Vyc29yIHBpcGVsaW5lQ3Vyc29yID0gcGlwZWxpbmUuZ2V0Q3Vy
+c29yKCk7DQoJU3RyaW5nCXF1YW50aXR5ID0gSURhdGFVdGlsLmdldFN0cmluZyggcGlwZWxpbmVD
+dXJzb3IsICJxdWFudGl0eSIgKTsNCglTdHJpbmcJdW5pdF9wcmljZSA9IElEYXRhVXRpbC5nZXRT
+dHJpbmcoIHBpcGVsaW5lQ3Vyc29yLCAidW5pdF9wcmljZSIgKTsNCglTdHJpbmcJZGlzY291bnQg
+PSBJRGF0YVV0aWwuZ2V0U3RyaW5nKCBwaXBlbGluZUN1cnNvciwgImRpc2NvdW50IiApOw0KcGlw
+ZWxpbmVDdXJzb3IuZGVzdHJveSgpOw0KDQpTdHJpbmcgdG90YWxfcHJpY2UgPSBTdHJpbmcudmFs
+dWVPZihJbnRlZ2VyLnBhcnNlSW50KHF1YW50aXR5KSpGbG9hdC5wYXJzZUZsb2F0KHVuaXRfcHJp
+Y2UpKigxMDAtRmxvYXQucGFyc2VGbG9hdChkaXNjb3VudCkpLzEwMCk7DQoNCi8vIHBpcGVsaW5l
+DQpJRGF0YUN1cnNvciBwaXBlbGluZUN1cnNvcl8xID0gcGlwZWxpbmUuZ2V0Q3Vyc29yKCk7DQpJ
+RGF0YVV0aWwucHV0KCBwaXBlbGluZUN1cnNvcl8xLCAidG90YWxfcHJpY2UiLHRvdGFsX3ByaWNl
+ICk7DQpwaXBlbGluZUN1cnNvcl8xLmRlc3Ryb3koKTs=</value>
+</Values>
