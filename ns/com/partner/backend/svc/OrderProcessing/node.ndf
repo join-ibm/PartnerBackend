@@ -100,13 +100,95 @@
   <value name="retry_interval">0</value>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
-  <null name="auditfields_input"/>
-  <null name="auditfields_output"/>
+  <value name="auditoption">1</value>
+  <array name="auditfields_input" type="value" depth="2">
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Price;2;0/unit_price;1;0</value>
+      <value>unit_price</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/quantity;1;0</value>
+      <value>quantity</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/VATNumber;1;0</value>
+      <value>VATNumber</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/item;1;0</value>
+      <value>item</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Contact;2;0/contact_name;1;0</value>
+      <value>contact_name</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Contact;2;0/contact_mail;1;0</value>
+      <value>contact_mail</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Contact;2;0/contact_number;1;0</value>
+      <value>contact_number</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/id;1;0</value>
+      <value>id</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Price;2;0/total_price;1;0</value>
+      <value>total_price</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order;4;0;com.partner.backend.doc:order/Contact;2;0/customer_name;1;0</value>
+      <value>customer_name</value>
+    </array>
+  </array>
+  <array name="auditfields_output" type="value" depth="2">
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Contact;2;0/customer_name;1;0</value>
+      <value>customer_name</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Contact;2;0/contact_number;1;0</value>
+      <value>contact_number</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Contact;2;0/contact_name;1;0</value>
+      <value>contact_name</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Price;2;0/unit_price;1;0</value>
+      <value>unit_price</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/quantity;1;0</value>
+      <value>quantity</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Price;2;0/total_price;1;0</value>
+      <value>total_price</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/id;1;0</value>
+      <value>id</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/VATNumber;1;0</value>
+      <value>VATNumber</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/Contact;2;0/contact_mail;1;0</value>
+      <value>contact_mail</value>
+    </array>
+    <array type="value" depth="1">
+      <value>/order_completed;4;0;com.partner.backend.doc:order/item;1;0</value>
+      <value>item</value>
+    </array>
+  </array>
   <record name="auditsettings" javaclass="com.wm.util.Values">
-    <value name="document_data">0</value>
-    <value name="startExecution">false</value>
-    <value name="stopExecution">false</value>
+    <value name="document_data">2</value>
+    <value name="startExecution">true</value>
+    <value name="stopExecution">true</value>
     <value name="onError">true</value>
   </record>
   <record name="circuitbreakersettings" javaclass="com.wm.util.Values">
