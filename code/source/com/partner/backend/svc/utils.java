@@ -34,19 +34,6 @@ public final class utils
 		// [i] field:0:required unit_price
 		// [i] field:0:required discount
 		// [o] field:0:required total_price
-		// pipeline
-		IDataCursor pipelineCursor = pipeline.getCursor();
-			String	quantity = IDataUtil.getString( pipelineCursor, "quantity" );
-			String	unit_price = IDataUtil.getString( pipelineCursor, "unit_price" );
-			String	discount = IDataUtil.getString( pipelineCursor, "discount" );
-		pipelineCursor.destroy();
-		
-		String total_price = String.valueOf(Integer.parseInt(quantity)*Float.parseFloat(unit_price)*(100-Float.parseFloat(discount))/100);
-		
-		// pipeline
-		IDataCursor pipelineCursor_1 = pipeline.getCursor();
-		IDataUtil.put( pipelineCursor_1, "total_price",total_price );
-		pipelineCursor_1.destroy();
 		// --- <<IS-END>> ---
 
                 
